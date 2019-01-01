@@ -6,4 +6,5 @@ workflow "New workflow" {
 action "unit tests" {
   uses = "actions/npm@e7aaefe"
   args = "npm test"
+  runs = "npm install"
 }
