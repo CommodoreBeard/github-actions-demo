@@ -1,0 +1,22 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "Sample project to test github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommodoreBeard/github-actions-demo.git"
+  },
+  "author": "CommodoreBeard <joe@joehughes.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CommodoreBeard/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/CommodoreBeard/github-actions-demo#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
